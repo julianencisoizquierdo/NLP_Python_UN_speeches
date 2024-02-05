@@ -4,12 +4,16 @@
 The object of this project is to derive insights from text using standard NLP techniques. The dataset used contains all of the speeches made in the UN General Assembly from the year 1975 to XXX. This file can be download from https://drive.google.com/file/d/16pj2NcArxciJuRMmXA_3Ny47ZBzRVcsI/view?usp=sharing
 
 ## Instructions
-Each sample in the train and test set has the following information:
-- The `text` of a tweet
-- A `keyword` from that tweet
-- The `location` the tweet was sent from
+The information contained in the file is the following:
+- The `session` number
+- The `year` of the speech
+- The individual country codes (in three-letter format) in `country`
+- The `country_name`
+- The `speaker` name
+- The `position` of the speaker, that is, his/her political role (minister, president...)
+- The `text`
 
-When running the code, make sure that the filepath for the several read_csv Panda functions have been updated correctly.
+When running the code, make sure that the filepath for the read_csv Panda function has been updated correctly.
 
 
 ## Rationale and Methodology
@@ -26,8 +30,7 @@ When running the code, make sure that the filepath for the several read_csv Pand
 
 ## Usage
 
-To run the analysis, open the `NLP_Disaster_Tweets.ipynb` notebook and execute each cell sequentially. Ensure that the required datasets are in the correct file paths.
-
+To run the analysis, open the `NLP_Deriving Insigths from the UN.ipynb` notebook and execute each cell sequentially.
 
 ## Dependencies
 
