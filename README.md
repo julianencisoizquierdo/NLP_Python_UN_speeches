@@ -1,7 +1,7 @@
 # Deriving Insights from UN Speeches
 
 ## Content of the project
-The object of this project is to derive insights from text using standard NLP techniques. The dataset used contains all of the speeches made in the UN General Assembly from the year 1975 to XXX. This file can be download from https://drive.google.com/file/d/16pj2NcArxciJuRMmXA_3Ny47ZBzRVcsI/view?usp=sharing
+The dataset used contains all of the speeches made in the UN General Assembly from the year 1975 to 2015. The goal of this project is to derive some insights from this dataset using comm natural language processing techniques (tokenization, document frequency, inverse document frequency, N-grams…) and present them graphically, mostly with wordclouds. This file can be download from https://drive.google.com/file/d/16pj2NcArxciJuRMmXA_3Ny47ZBzRVcsI/view?usp=sharing
 
 ## Instructions
 The information contained in the file is the following:
@@ -16,59 +16,40 @@ The information contained in the file is the following:
 When running the code, make sure that the filepath for the read_csv Panda function has been updated correctly.
 
 
-## Rationale and Methodology
-
-### Data Exploration
-
-### Feature Engineering
-
-### Machine Learning Methodology
-
-### Results and Discussion
-
-
-
 ## Usage
 
 To run the analysis, open the `NLP_Deriving Insigths from the UN.ipynb` notebook and execute each cell sequentially.
 
+
 ## Dependencies
 
-The following libraries are used in different parts of the project:
-- Pandas
-- Numpy
-- Tensorflow
-- Matplotlib.pyplot
-- Seaborn
-- Re
-- String
-- Keras_nlp
-- Keras_core
-- Symspellpy
-- Spacy
-- Os
-- Sentence_transformers
-- Sklearn.metrics
-- Sklearn.metrics.pairwise
-
-
-Proceed to their installation with the following code:
+Find the libraries used in the project below, as well as their installation code:
 
 ```
-import numpy as np
 import pandas as pd
-import tensorflow as tf
-import keras_core as keras
-import keras_nlp
-import seaborn as sns
-import matplotlib.pyplot as plt
-import re, string
-from symspellpy import SymSpell, Verbosity
-import spacy
+import numpy as np
+import math
+import re
+import glob
 import os
-from sentence_transformers import SentenceTransformer
-from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
+import sys
+import json
+import random
+import pprint as pp
+import textwrap
+import sqlite3
+import logging
+import matplotlib
+import spacy
+import nltk
+import seaborn as sns
+tqdm.pandas()
+
+from matplotlib import pyplot as plt
+from tqdm.auto import tqdm
+from collections import Counter
+from wordcloud import WordCloud
+from collections import Counter
 ```
 
 ## Installation
@@ -90,4 +71,4 @@ If you are interested in using or collaborating on this project, please send me 
 
 
 ## Acknowledgments
-Special thanks to Franck Jaotombo for his valuable feedback.
+This project makes use of the materials used in the Natural Language Processing class I took during my Master's. Special thanks to Franck Jaotombo for the teaching.
