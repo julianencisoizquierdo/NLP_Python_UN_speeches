@@ -1,15 +1,9 @@
 # Deriving Insights from UN Speeches
 
 ## Content of the project
-This project uses machine learning to predicts the Tweets that are about real disasters and the ones that are not. More details can be found in Kaggle's website: https://www.kaggle.com/competitions/titanic
-
+The object of this project is to derive insights from text using standard NLP techniques. The dataset used contains all of the speeches made in the UN General Assembly from the year 1975 to XXX. This file can be download from https://drive.google.com/file/d/16pj2NcArxciJuRMmXA_3Ny47ZBzRVcsI/view?usp=sharing
 
 ## Instructions
-Three files are provided by Kaggle:
-- `train.csv` - the training set
-- `test.csv` - the test set
-- `sample_submission.csv` - a sample submission file in the correct format
-
 Each sample in the train and test set has the following information:
 - The `text` of a tweet
 - A `keyword` from that tweet
