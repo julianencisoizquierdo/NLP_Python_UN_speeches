@@ -1,7 +1,7 @@
 # Deriving Insights from UN Speeches
 
 ## Content of the project
-The dataset used contains all of the speeches made in the UN General Assembly from the year 1975 to 2015. The goal of this project is to derive some insights from this dataset using common natural language processing techniques (tokenization, document frequency, inverse document frequency, N-grams…) and present them graphically, mostly with wordclouds. This file can be download from https://drive.google.com/file/d/16pj2NcArxciJuRMmXA_3Ny47ZBzRVcsI/view?usp=sharing
+The dataset contains all of the speeches made in the UN General Assembly between the years 1975 and 2015 (both inclusive). The goal of this project is to derive some insights from this dataset using common natural language processing techniques (tokenization, document frequency, inverse document frequency, N-grams…) and present them graphically, mostly with wordclouds. This file can be download from https://drive.google.com/file/d/16pj2NcArxciJuRMmXA_3Ny47ZBzRVcsI/view?usp=sharing
 
 ## Instructions
 The information contained in the file is the following:
