@@ -16,6 +16,18 @@ The information contained in the file is the following:
 When running the code, make sure that the filepath for the read_csv Panda function has been updated correctly.
 
 
+## Explanation
+
+The visuals presented in the project include:
+- A boxplot of the length of the speeches for the 5 countries members of the UN Security Council taking the whole period (1975-2015) into account
+- The evolution of the amount of countries over time
+- The evolution of the average speech length over time
+- A horizontal bar plot of the most frequent words
+- Wordclouds for the year 2008, 2001 and 2010
+- Wordclouds with bigrams for the year 2015
+- The evolution of certain keywords over time
+- A frequency heatmap with certain words, including their evolution over time
+
 ## Usage
 
 To run the analysis, open the `NLP_Deriving Insigths from the UN.ipynb` notebook and execute each cell sequentially.
